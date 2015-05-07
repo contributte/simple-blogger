@@ -100,6 +100,7 @@ final class StaticCollector implements ICollector
             $post['post'] = realpath($post['post']);
 
             $posts[] = $post;
+            $postsIds[] = $post['id'];
         }
 
         return $posts;

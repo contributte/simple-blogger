@@ -43,9 +43,9 @@ final class PostsRepository
     {
         $collection = $this->cache->load(self::CACHE_COLLECTION, function (&$dependencies) {
             $dependencies[Cache::TAGS] = ['blog', 'posts'];
-            $dependencies[Cache::EXPIRATION] = '+1 hour';
+            $dependencies[Cache::EXPIRATION] = '+24 hour';
 
-            return $this->collector->collect();;
+            return $this->collector->collect();
         });
 
         return $collection;

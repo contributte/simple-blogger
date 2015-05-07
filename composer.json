@@ -1,0 +1,21 @@
+{
+  "name": "minetro/simple-blogger",
+  "description": "Simple static blogger based on Nette",
+  "type": "project",
+  "license": ["BSD-3-Clause"],
+  "homepage": "https://github.com/minetro/simple-blogger",
+  "authors": [
+    {
+      "name": "Milan Felix Sulc",
+      "homepage": "http://jfx.cz"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.0",
+    "nette/di": ">=2.3.0",
+    "nette/utils": ">=2.3.0"
+  },
+  "require-dev": {
+    "nette/tester": "~1.4.0"
+  }
+}

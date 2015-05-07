@@ -57,10 +57,9 @@ final class Collection extends Object
 
     /**
      * @param $callback
-     * @return array
      */
     public function sort($callback)
     {
-        return uasort($this->posts, $callback);
+        uasort($this->posts, $callback);
     }
 }

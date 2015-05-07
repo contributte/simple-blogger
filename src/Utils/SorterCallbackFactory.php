@@ -22,7 +22,7 @@ class SorterCallbackFactory
     {
         return function ($a, $b) use ($rule) {
             $res = strcmp($a->{$rule->property}, $b->{$rule->property});
-            return $rule->isAscending() ? $res : -1 * abs($res);
+            return $rule->isAscending() ? $res : -1 * $res;
         };
     }
 
@@ -48,7 +48,7 @@ class SorterCallbackFactory
                 $rindex = 0;
                 return $res;
             } else {
-                return $rule->isAscending() ? $res : -1 * abs($res);
+                return $rule->isAscending() ? $res : -1 * $res;
             }
         };
 

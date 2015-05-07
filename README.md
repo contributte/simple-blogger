@@ -21,7 +21,7 @@ extensions:
     blog: Minetro\Blog\Simple\DI\BloggerExtension
 ```
 
-You have to set folder where Finder will be looking for **posts**.
+You have to set folder where [Nette\Utils\Finder](http://api.nette.org/2.3/Nette.Utils.Finder.html) will be looking for **posts**.
  
 ```
 blog:
@@ -34,7 +34,7 @@ Post consists of two parts. `Meta` file and `content` file.
 
 ### Metafile
 
-Let's we have a file in *data/201505/post.neon*. All meta files have `neon` extension.
+Let's we have a file in *data/201505/post.neon*. All meta files must have `neon` extension.
 
 Take a look to example meta file.
 
@@ -60,7 +60,7 @@ config:
 
 Required properties are **id**, **date**, **title** and **post**. 
 
-**post** is a target to your `content` file. Content file could be `.md`, `.latte` or whatever. But you have to specific
+**Post** is a target to your `content` file. Content file could be `.md`, `.latte` or whatever. But you have to specific
 parser. In this case it is parsedown. 
 
 TODO - describe other properties.
@@ -71,9 +71,9 @@ TODO - describe other properties.
 
 To obtain all posts, one posts, order posts, filters posts here is `PostsService`. 
 
-`->findAll(Configuration $c)` - Returns array of posts.
+`->findAll(Configuration $c)` - returns array of posts.
 
-`->fetch(Configuration $c)` - Returns just one posts or nothing.
+`->fetch(Configuration $c)` - returns just one posts or nothing.
 
 ### Configuration
 
@@ -83,7 +83,7 @@ There are 3 objects. **Criteria**, **Sorter** and **Paginator**.
 
 `Sorter` - it is for posts sorting 
 
-`Paginator` - it extends classic (Nette\Utils\Paginator)[http://api.nette.org/2.3/Nette.Utils.Paginator.html]
+`Paginator` - it extends classic [Nette\Utils\Paginator](http://api.nette.org/2.3/Nette.Utils.Paginator.html)
 
 ## View
 

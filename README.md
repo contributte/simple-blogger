@@ -2,7 +2,7 @@
 
 [![Build Status](https://img.shields.io/travis/minetro/simple-blogger.svg?style=flat-square)](https://travis-ci.org/minetro/simple-blogger)
 [![Code coverage](https://img.shields.io/coveralls/minetro/simple-blogger.svg?style=flat-square)](https://coveralls.io/r/minetro/simple-blogger)
-[![Downloads this Month](https://img.shields.io/packagist/dm/minetro/simple-blogger.svg?style=flat-square)](https://packagist.org/packages/minetro/simple-blogger)
+[![Downloads total](https://img.shields.io/packagist/dt/minetro/simple-blogger.svg?style=flat-square)](https://packagist.org/packages/minetro/simple-blogger)
 [![Latest stable](https://img.shields.io/packagist/v/minetro/simple-blogger.svg?style=flat-square)](https://packagist.org/packages/minetro/simple-blogger)
 [![HHVM Status](https://img.shields.io/hhvm/minetro/simple-blogger.svg?style=flat-square)](http://hhvm.h4cc.de/package/minetro/simple-blogger)
 

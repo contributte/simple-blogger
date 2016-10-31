@@ -4,6 +4,10 @@ Simple static blogger based on Nette.
 
 -----
 
+This project is deprecated. Use better solution [blogette/platform](https://github.com/blogette/platform).
+
+-----
+
 [![Build Status](https://img.shields.io/travis/minetro/simple-blogger.svg?style=flat-square)](https://travis-ci.org/minetro/simple-blogger)
 [![Code coverage](https://img.shields.io/coveralls/minetro/simple-blogger.svg?style=flat-square)](https://coveralls.io/r/minetro/simple-blogger)
 [![Downloads total](https://img.shields.io/packagist/dt/minetro/simple-blogger.svg?style=flat-square)](https://packagist.org/packages/minetro/simple-blogger)

@@ -20,8 +20,8 @@ This project is deprecated. Use better solution [blogette/platform](https://gith
 
 # Install
 
-```sh
-$ composer require minetro/simple-blogger:~0.1
+```bash
+composer require minetro/simple-blogger:~0.1
 ```
 
 # Usage
@@ -34,7 +34,7 @@ extensions:
 
 You have to set folder where [Nette\Utils\Finder](http://api.nette.org/2.3/Nette.Utils.Finder.html) will be looking for **posts**.
  
-```
+```yaml
 blog:
     posts: %appDir%/data
 ```

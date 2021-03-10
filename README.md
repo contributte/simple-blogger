@@ -27,16 +27,16 @@ composer require minetro/simple-blogger:~0.1
 # Usage
 
 Register `BloggerExtension` to your other extensions.
-```yaml
+```neon
 extensions:
-    blog: Minetro\Blog\Simple\DI\BloggerExtension
+	blog: Minetro\Blog\Simple\DI\BloggerExtension
 ```
 
 You have to set folder where [Nette\Utils\Finder](http://api.nette.org/2.3/Nette.Utils.Finder.html) will be looking for **posts**.
  
-```yaml
+```neon
 blog:
-    posts: %appDir%/data
+	posts: %appDir%/data
 ```
 
 ## Posts
@@ -49,24 +49,24 @@ Let's we have a file in *data/201505/post.neon*. All meta files must have `neon`
 
 Take a look to example meta file.
 
-```yaml
+```neon
 id: 1
 date: 06.05.2015
 title: Some cool title
 post: %file%/post.md
 
 seo:
-    title: 'Best framework in the world'
-    keywords: 'nette, php, framework'
-    description: 'Nothing to say. It's a fact.'
+	title: 'Best framework in the world'
+	keywords: 'nette, php, framework'
+	description: 'Nothing to say. It's a fact.'
 
 tags:
-    - php
+	- php
 
 config:
-    comments: yes
-    social: yes
-    parser: parsedown
+	comments: yes
+	social: yes
+	parser: parsedown
 ```
 
 Required properties are **id**, **date**, **title** and **post**. 

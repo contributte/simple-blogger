@@ -1,39 +1,41 @@
-# Simple Blogger
+![](https://heatbadger.now.sh/github/readme/contributte/simple-blogger/?deprecated=1)
+
+<p align=center>
+    <a href="https://bit.ly/ctteg"><img src="https://badgen.net/badge/support/gitter/cyan"></a>
+    <a href="https://bit.ly/cttfo"><img src="https://badgen.net/badge/support/forum/yellow"></a>
+    <a href="https://contributte.org/partners.html"><img src="https://badgen.net/badge/sponsor/donations/F96854"></a>
+</p>
+
+<p align=center>
+    Website 🚀 <a href="https://contributte.org">contributte.org</a> | Contact 👨🏻‍💻 <a href="https://f3l1x.io">f3l1x.io</a> | Twitter 🐦 <a href="https://twitter.com/contributte">@contributte</a>
+</p>
+
+## Disclaimer
+
+| :warning: | This project is no longer being maintained. Please use [contributte/webapp-skeletoni](https://github.com/contributte/webapp-skeleton).
+|---|---|
+
+| Composer | [`minetro/simple-blogger`](https://packagist.org/minetro/simple-blogger) |
+|---| --- |
+| Version | ![](https://badgen.net/packagist/v/minetro/simple-blogger) |
+| PHP | ![](https://badgen.net/packagist/php/minetro/simple-blogger) |
+| License | ![](https://badgen.net/github/license/contributte/simple-blogger) |
 
 Simple static blogger based on Nette.
 
------
-
 This project is deprecated. Use better solution [blogette/platform](https://github.com/blogette/platform).
 
------
-
-[![Build Status](https://img.shields.io/travis/minetro/simple-blogger.svg?style=flat-square)](https://travis-ci.org/minetro/simple-blogger)
-[![Code coverage](https://img.shields.io/coveralls/minetro/simple-blogger.svg?style=flat-square)](https://coveralls.io/r/minetro/simple-blogger)
-[![Downloads total](https://img.shields.io/packagist/dt/minetro/simple-blogger.svg?style=flat-square)](https://packagist.org/packages/minetro/simple-blogger)
-[![Latest stable](https://img.shields.io/packagist/v/minetro/simple-blogger.svg?style=flat-square)](https://packagist.org/packages/minetro/simple-blogger)
-[![HHVM Status](https://img.shields.io/hhvm/minetro/simple-blogger.svg?style=flat-square)](http://hhvm.h4cc.de/package/minetro/simple-blogger)
-
-## Discussion / Help
-
-[![Join the chat](https://img.shields.io/gitter/room/minetro/nette.svg?style=flat-square)](https://gitter.im/minetro/nette?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
-# Install
-
-```bash
-composer require minetro/simple-blogger:~0.1
-```
-
-# Usage
+## Usage
 
 Register `BloggerExtension` to your other extensions.
+
 ```neon
 extensions:
 	blog: Minetro\Blog\Simple\DI\BloggerExtension
 ```
 
 You have to set folder where [Nette\Utils\Finder](http://api.nette.org/2.3/Nette.Utils.Finder.html) will be looking for **posts**.
- 
+
 ```neon
 blog:
 	posts: %appDir%/data
@@ -69,10 +71,10 @@ config:
 	parser: parsedown
 ```
 
-Required properties are **id**, **date**, **title** and **post**. 
+Required properties are **id**, **date**, **title** and **post**.
 
 **Post** is a target to your `content` file. Content file could be `.md`, `.latte` or whatever. But you have to specific
-parser. In this case it is parsedown. 
+parser. In this case it is parsedown.
 
 TODO - describe other properties.
 
@@ -80,7 +82,7 @@ TODO - describe other properties.
 
 ### PostsService
 
-To obtain all posts, one posts, order posts, filters posts here is `PostsService`. 
+To obtain all posts, one posts, order posts, filters posts here is `PostsService`.
 
 `->findAll(Configuration $c)` - returns array of posts.
 
@@ -92,10 +94,23 @@ There are 3 objects. **Criteria**, **Sorter** and **Paginator**.
 
 `Criteria` - it is for posts filtering (excluding)
 
-`Sorter` - it is for posts sorting 
+`Sorter` - it is for posts sorting
 
 `Paginator` - it extends classic [Nette\Utils\Paginator](http://api.nette.org/2.3/Nette.Utils.Paginator.html)
 
 ## View
 
 View is not part of this library. You have to display posts by yourself.
+
+## Development
+
+This package was maintain by these authors.
+
+<a href="https://github.com/f3l1x">
+  <img width="80" height="80" src="https://avatars2.githubusercontent.com/u/538058?v=3&s=80">
+</a>
+
+-----
+
+Consider to [support](https://contributte.org/partners.html) **contributte** development team.
+Also thank you for being used this package.

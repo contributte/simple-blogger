@@ -2,7 +2,9 @@
   "name": "minetro/simple-blogger",
   "description": "Simple static blogger based on Nette",
   "type": "project",
-  "license": ["BSD-3-Clause"],
+  "license": [
+    "BSD-3-Clause"
+  ],
   "homepage": "https://github.com/minetro/simple-blogger",
   "authors": [
     {
@@ -19,6 +21,8 @@
     "nette/tester": "~1.4.0"
   },
   "autoload": {
-    "classmap": ["src/"]
+    "classmap": [
+      "src/"
+    ]
   }
 }

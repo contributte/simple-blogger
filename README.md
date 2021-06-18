@@ -76,8 +76,6 @@ Required properties are **id**, **date**, **title** and **post**.
 **Post** is a target to your `content` file. Content file could be `.md`, `.latte` or whatever. But you have to specific
 parser. In this case it is parsedown.
 
-TODO - describe other properties.
-
 ## Model
 
 ### PostsService

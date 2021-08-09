@@ -12,7 +12,7 @@
 
 ## Disclaimer
 
-| :warning: | This project is no longer being maintained. Please use [contributte/webapp-skeletoni](https://github.com/contributte/webapp-skeleton).
+| :warning: | This project is no longer being maintained. Please use [contributte/webapp-skeleton](https://github.com/contributte/webapp-skeleton).
 |---|---|
 
 | Composer | [`minetro/simple-blogger`](https://packagist.org/minetro/simple-blogger) |

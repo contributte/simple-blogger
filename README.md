@@ -1,29 +1,29 @@
 ![](https://heatbadger.now.sh/github/readme/contributte/simple-blogger/?deprecated=1)
 
 <p align=center>
-	<a href="https://bit.ly/ctteg"><img src="https://badgen.net/badge/support/gitter/cyan"></a>
-	<a href="https://bit.ly/cttfo"><img src="https://badgen.net/badge/support/forum/yellow"></a>
-	<a href="https://contributte.org/partners.html"><img src="https://badgen.net/badge/sponsor/donations/F96854"></a>
+    <a href="https://bit.ly/ctteg"><img src="https://badgen.net/badge/support/gitter/cyan"></a>
+    <a href="https://bit.ly/cttfo"><img src="https://badgen.net/badge/support/forum/yellow"></a>
+    <a href="https://contributte.org/partners.html"><img src="https://badgen.net/badge/sponsor/donations/F96854"></a>
 </p>
 
 <p align=center>
-	Website 🚀 <a href="https://contributte.org">contributte.org</a> | Contact 👨🏻‍💻 <a href="https://f3l1x.io">f3l1x.io</a> | Twitter 🐦 <a href="https://twitter.com/contributte">@contributte</a>
+    Website 🚀 <a href="https://contributte.org">contributte.org</a> | Contact 👨🏻‍💻 <a href="https://f3l1x.io">f3l1x.io</a> | Twitter 🐦 <a href="https://twitter.com/contributte">@contributte</a>
 </p>
 
 ## Disclaimer
 
-| :warning: | This project is no longer being maintained. Please use [contributte/webapp-skeleton](https://github.com/contributte/webapp-skeleton).
+| :warning: | This project is no longer being maintained. Please use [blogette/platform](https://github.com/blogette/platform).|
 |---|---|
 
 | Composer | [`minetro/simple-blogger`](https://packagist.org/packages/minetro/simple-blogger) |
-|---| --- |
+|---|---|
 | Version | ![](https://badgen.net/packagist/v/minetro/simple-blogger) |
 | PHP | ![](https://badgen.net/packagist/php/minetro/simple-blogger) |
 | License | ![](https://badgen.net/github/license/contributte/simple-blogger) |
 
-Simple static blogger based on Nette.
+## About
 
-This project is deprecated. Use better solution [blogette/platform](https://github.com/blogette/platform).
+Simple static blogger based on Nette.
 
 ## Usage
 
@@ -102,13 +102,13 @@ View is not part of this library. You have to display posts by yourself.
 
 ## Development
 
-This package was maintain by these authors.
+This package was maintained by these authors.
 
 <a href="https://github.com/f3l1x">
-	<img width="80" height="80" src="https://avatars2.githubusercontent.com/u/538058?v=3&s=80">
+  <img width="80" height="80" src="https://avatars2.githubusercontent.com/u/538058?v=3&s=80">
 </a>
 
 -----
 
 Consider to [support](https://contributte.org/partners.html) **contributte** development team.
-Also thank you for being used this package.
+Also thank you for using this package.
